@@ -1,6 +1,6 @@
 
-# Now I'm going to try to make my credit card function using monthly numbers
-def monthly_input_desired
+# Credit card function using monthly numbers
+def monthly_inputs ():
     print("Hello! Which card is best for you? Let's gather some data.\n"
           " Please input how much money you spend per MONTH in the following categories:")
     Total_Spend = input("Total Spend (per month)= ")
@@ -49,10 +49,38 @@ def monthly_input_desired
         print("\nYour annual rewards would be $" + str(csr_monthly_rewards * 12))
 
 
+Monthly_vs_yearly = input("""We're going to help you decide between the Chase Sapphire Preferred and the Chase Sapphire Reserved based off
+of your spending habits in different categories. Would you like to input monthly or yearly numbers? For Monthly, type M.
+For yearly, type Y. """)
+
+if Monthly_vs_yearly == "M":
+    monthly_inputs()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ####This is my main function set up for monthly input
 
 #print("Hello! Which card is best for you? Let's gather some data.\n"
-     " Please input how much money you spend per MONTH in the following categories:")
+#     " Please input how much money you spend per MONTH in the following categories:")
 #Total_Spend = input("Total Spend (per month)= ")
 #Travel = int(input("Monthly Travel Spend = "))
 #Dining = int(input("Monthly Dining Spend = "))
