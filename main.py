@@ -18,6 +18,17 @@ def monthly_inputs ():
     print("\nOkay. So you spend " + str(Total_Spend) + " dollars per month total. " + str(Travel) + " on travel, ")
     print(str(Dining) + " on dining, " + str(Gas) + " on gas, and " + str(Groceries) + " on groceries. ")
 
+## Going to try a different list organization here for my categories
+
+# categories = ["Travel", "Dining", "Gas", "Bills_Utilities", "Education", "Entertainment", "Personal",
+#                   "Home", "Groceries"]
+# spending_data = {}
+# for category in categories:
+#    spending_data[category] = float(input(f"Monthly {category} spend = $"))
+
+#I don't understand how that will work in my code right now :(
+
+
     # important variables for CSP here
     csp_travel_credit = 50
     csp_annual_fee = 95
