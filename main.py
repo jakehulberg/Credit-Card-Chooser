@@ -127,6 +127,3 @@ if Monthly_vs_yearly == "M":
     monthly_inputs()
 else:
     yearly_inputs()
-
-
-
